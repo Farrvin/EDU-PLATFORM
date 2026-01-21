@@ -1,0 +1,88 @@
+<!doctype html>
+<section id="pricing" class="section">
+<div class="container" style="padding:0">
+<h2>Pricing (examples)</h2>
+<div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:12px">
+<div class="feature-card" style="flex:1;min-width:220px">
+<strong>Retrofit Kit</strong>
+<p style="margin:6px 0;color:var(--muted)">Per pole kit + mounting hardware</p>
+<div style="font-weight:800">Contact for quote</div>
+</div>
+<div class="feature-card" style="flex:1;min-width:220px">
+<strong>Installation & Training</strong>
+<p style="margin:6px 0;color:var(--muted)">Per-site or per-team pricing</p>
+<div style="font-weight:800">Custom</div>
+</div>
+<div class="feature-card" style="flex:1;min-width:220px">
+<strong>Sensor Subscription</strong>
+<p style="margin:6px 0;color:var(--muted)">Optional remote health monitoring</p>
+<div style="font-weight:800">Monthly / per-lamp</div>
+</div>
+</div>
+<p style="color:var(--muted);font-size:13px;margin-top:10px">Want exact pricing? Tell us your number of poles, lamp types and preferred rollout timeline.</p>
+</div>
+</section>
+
+
+<section id="contact" class="section">
+<div class="container" style="padding:0">
+<h2>Contact & demo</h2>
+<div class="two-col" style="margin-top:12px">
+<div class="feature-card">
+<form action="mailto:hello@safelift.example" method="post" enctype="text/plain">
+<label style="font-weight:700">Name</label><br>
+<input type="text" name="name" style="width:100%;padding:10px;margin-top:8px;margin-bottom:12px;border-radius:8px;border:1px solid #e6eef0">
+<label style="font-weight:700">Organization</label><br>
+<input type="text" name="org" style="width:100%;padding:10px;margin-top:8px;margin-bottom:12px;border-radius:8px;border:1px solid #e6eef0">
+<label style="font-weight:700">Message / demo request</label><br>
+<textarea name="message" rows="4" style="width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #e6eef0"></textarea>
+<div style="margin-top:12px;display:flex;gap:10px">
+<button class="btn btn-primary" type="submit">Send request</button>
+<a class="btn btn-ghost" href="tel:+911234567890">Call Sales</a>
+</div>
+</form>
+</div>
+
+
+<div>
+<div class="feature-card">
+<h3>Get a site visit</h3>
+<p class="lead">Provide a shortlist of streets or a fleet count and our team will prepare a free rollout plan and cost estimate.</p>
+<div style="font-size:13px;color:var(--muted);margin-top:8px">
+Email: <a href="mailto:hello@safelift.example">hello@safelift.example</a><br>
+Phone: +91 12 3456 7890
+</div>
+<div style="margin-top:12px">Follow us:</div>
+<div class="social" style="margin-top:8px">
+<a href="#">LinkedIn</a>
+<a href="#">X / Twitter</a>
+<a href="#">Facebook</a>
+</div>
+</div>
+
+
+<div style="margin-top:12px;background:white;border-radius:10px;padding:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)">
+<strong>Quick checklist for quote</strong>
+<ul style="color:var(--muted);padding-left:18px;margin-top:8px">
+<li>Number of poles</li>
+<li>Fixture type (LED / HPS / Other)</li>
+<li>Existing mounting arrangement</li>
+<li>Preferred deployment timeline</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+</main>
+
+
+<footer>
+<div style="font-size:13px;color:var(--muted)">© SafeLift™ 2025 — Designed for safer municipal maintenance</div>
+<div style="font-size:13px;color:var(--muted)">Privacy • Terms</div>
+</footer>
+</div>
+</body>
+</html>
