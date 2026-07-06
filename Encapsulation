@@ -1,0 +1,68 @@
+
+public class BankAccount {
+    // Private fields (data hiding)
+    private String accountHolderName;
+    private double balance;
+
+    // Constructor
+    public BankAccount(String accountHolderName, double initialBalance) {
+        this.accountHolderName = accountHolderName;
+        if (initialBalance >= 0) {
+            this.balance = initialBalance;
+        } else {
+            this.balance = 0;
+            System.out.println("Initial balance cannot be negative. Set to 0.");
+        }
+    }
+
+   
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+
+    
+    public double getBalance() {
+        return balance;
+    }
+
+    
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+            System.out.println("Deposited: " + amount);
+        } else {
+            System.out.println("Deposit amount must be positive.");
+        }
+    }
+
+    
+    public void withdraw(double amount) {
+        if (amount > 0 && amount <= balance) {
+            balance -= amount;
+            System.out.println("Withdrew: " + amount);
+        } else if (amount > balance) {
+            System.out.println("Insufficient balance.");
+        } else {
+            System.out.println("Withdrawal amount must be positive.");
+        }
+    }
+
+    
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount("John Doe", 5000);
+
+        
+        System.out.println("Account Holder: " + account.getAccountHolderName());
+        System.out.println("Initial Balance: " + account.getBalance());
+
+        account.deposit(1500);
+        System.out.println("Balance after deposit: " + account.getBalance());
+
+        account.withdraw(2000);
+        System.out.println("Balance after withdrawal: " + account.getBalance());
+
+        
+        account.deposit(-500);
+        account.withdraw(10000);
+    }
+}
